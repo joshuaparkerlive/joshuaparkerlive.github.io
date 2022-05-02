@@ -14,6 +14,11 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
+### `npm run deploy`
+
+Builds the app and deploys it to the gh-pages server for viewing at 
+https://joshuaparkerlive.github.io
+
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
