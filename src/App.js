@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import './styles/App.css';
+import Button from 'react-bootstrap/Button'
 
-function App() {
-  return (
-    <div className="App">
+class App extends React.Component {
+  render(){ return (
+    <>
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Edit <code>src/App.js</code> and save to reload. edited
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Button>Test</Button>
       </header>
-    </div>
+    </>
   );
+  }
+
+  componentDidMount(){
+
+  }
+
+
 }
 
 export default App;

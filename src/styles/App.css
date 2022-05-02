@@ -1,3 +1,9 @@
+/* Define app level changes to css stuff here,
+    Basically app level changes and import custom component stylesheets when changed */
+
+    /* Import this for every component */
+
+    /* App changes */
 .App {
   text-align: center;
 }
@@ -36,3 +42,7 @@
     transform: rotate(360deg);
   }
 }
+
+/* Component changes */
+
+@import './DummyComponent.css'
