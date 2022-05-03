@@ -3,8 +3,8 @@
 
     /* Import this for every component */
 
-    /* App changes */
-.App {
+    /* starter App changes */
+/* .App {
   text-align: center;
 }
 
@@ -41,7 +41,7 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
 
 /* Component changes */
 
