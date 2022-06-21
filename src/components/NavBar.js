@@ -16,7 +16,7 @@ class NavBar extends React.Component{
                     <NavbarBrand as={Link} to={"/"+ this.props.homePage.toLowerCase()}><h3>Josh Parker</h3></NavbarBrand>
 
                     {/* Use: https://www.npmjs.com/package/react-obfuscate */}
-                    <Navbar.Text>My contact links</Navbar.Text>
+                    {/* <Navbar.Text>My contact links</Navbar.Text> */}
 
                     {/* button controller */}
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
